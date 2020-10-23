@@ -11,3 +11,12 @@ export const getData = async () =>{
         throw new Error(`Unhandled - getData: ${err}`);
     }
 }
+
+export const addData = async (data) =>{
+    try{
+        const res = await axios.post(baseUrl,data);
+        return res.data;
+    }catch(err){
+        throw new Error(`Unhandled - addData: ${err}`);
+    }
+}

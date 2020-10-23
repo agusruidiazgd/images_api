@@ -1,0 +1,25 @@
+figure.modal-img{
+    width:600px;
+    height:700px;
+    margin:0;
+    background-color:red;
+    padding:15px;
+    position: fixed;
+    top: 20px;
+    z-index:500;
+    figcaption{
+        color: white;
+        text-shadow: 0 1px 0 black;
+        font-size: 15px;
+        position: absolute;
+        top: 250px;
+        left:15px;
+    }
+  
+    img{
+        width: 500px;
+        margin-left: -110px;
+
+    }
+    
+}
